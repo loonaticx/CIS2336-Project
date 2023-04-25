@@ -12,6 +12,7 @@ https://loonaticx.github.io/CIS2336-Project
   - Merch page
   - Project proposal
 - Barry McCoy
+  - Donation Page
 - Erica Miller
   - Sponsor page
   - Project logo
