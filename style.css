@@ -317,7 +317,7 @@ h4 {
 /* CSS for donation form */
 .donation form {
     width: 300px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .donation label,
@@ -344,31 +344,31 @@ h4 {
     display: none;
 }
 
-/* CSS for top donor list */
-.donation #top-donors {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 200px;
-    background-color: #f7f7f7;
+#thank-you-message {
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
     padding: 10px;
-    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#donor-list-container {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
 }
 
-    .donation #top-donors h3 {
-        margin-top: 0;
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
+#donor-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
 
-    .donation #top-donors ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .donation #top-donors li {
-        margin-bottom: 5px;
-        font-size: 0.9rem;
-        font-weight: bold;
-    }
+#donor-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
