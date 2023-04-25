@@ -8,11 +8,18 @@ https://loonaticx.github.io/CIS2336-Project
 # Group Members
 - Marco Lopez
 - Ronaldo Martinez
+  - Home page
+  - Merch page
+  - Project proposal
 - Barry McCoy
 - Erica Miller
-  - Initial sponsor page development, project logo, project overseer
+  - Sponsor page
+  - Project logo
+  - Project overseer
 - Dat Nguyen
 - Johnny Nguyen
-  - Project Proposal
+  - Ambassador page
+  - Submission form
+  
 
 
