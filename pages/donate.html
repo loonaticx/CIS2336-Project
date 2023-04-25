@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Donate | Wildheart Animal Rescue Company</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Wildheart Animal Rescue Company</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/sponsors.html">Sponsors</a></li>
+            <li><a href="/pages/donations.html">Donations</a></li>
+            <li><a href="/pages/ambassador.html">Ambassadors</a></li>
+            <li><a href="/pages/merch.html">Merch</a></li>
+        </ul>
+    </nav>
+    <div class="donation">
+        <form id="donation-form">
+            <label for="donor-name">Name:</label>
+            <input type="text" id="donor-name" required />
+
+            <label for="donor-email">Email:</label>
+            <input type="email" id="donor-email" required />
+
+            <label for="donor-amount">Donation Amount:</label>
+            <input type="number" id="donor-amount" min="0" required />
+
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" required />
+
+            <label for="card-expiry">Expiration Date:</label>
+            <input type="text" id="card-expiry" required />
+
+            <label for="card-cvc">CVC:</label>
+            <input type="text" id="card-cvc" required />
+
+            <button type="submit">Donate</button>
+        </form>
+        <div id="thank-you-message" class="hidden">
+            Thank you for your donation!
+        </div>
+
+        <div id="donor-list-container">
+            <h2>- Top Donors -</h2>
+            <ul id="donor-list"></ul>
+        </div>
+    </div>
+    <script>
+        // add event listener to the form submission
+        document.getElementById('donation-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            saveDonorInfo();
+            document.getElementById('thank-you-message').classList.remove('hidden');
+            showTopDonors();
+        });  
+    </script>
+    <footer>
+        <div class="footContainer">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Connect with us</h4>
+                    <ul class="list-inline">
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Contact us</h4>
+                    <ul class="list-unstyled">
+                        <li>Dat Nguyen</li>
+                        <li>Houston, TX</li>
+                        <li>Phone: 555-555-5555</li>
+                        <li>Email: info@animalrescuecenter.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
