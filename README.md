@@ -7,6 +7,7 @@ https://loonaticx.github.io/CIS2336-Project
 
 # Group Members
 - Marco Lopez
+  - Sponsor Page 
 - Ronaldo Martinez
   - Home page
   - Merch page
