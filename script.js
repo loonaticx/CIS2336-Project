@@ -15,26 +15,3 @@ function showSlides() {
 }
 }
 
-/* cart */
-let addButton = document.querySelectorAll('.button');
-let cartList = document.getElementById('cartList');
-
-addButton.forEach(function(button) {
-  button.addEventListener('click', function() {
-    let newItem = document.createElement('li');
-    newItem.textContent = button.parentElement.querySelector('h3').textContent;
-    cartList.appendChild(newItem);
-  });
-});
-/*
-let addButton = document.getElementsByClassName('button')[0];
-let cartList = document.getElementById('cartList');
-
-addButton.addEventListener('click', function()
-{
-  let newItem = document.createElement('li');
-  newItem.textContent = document.querySelector('#productOne h3').textContent;
-  cartList.appendChild(newItem);
-});
-
-*/
