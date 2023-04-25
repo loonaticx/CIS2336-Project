@@ -422,8 +422,8 @@ Sponsors
 
 
 .sponsor-image {
-  border: 10px solid black; 
-  padding: 0rem;
+  border: 20px solid black; 
+  padding: 2rem;
   width: auto;
   height: auto;
   object-fit: cover;
