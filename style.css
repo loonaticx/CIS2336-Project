@@ -313,3 +313,62 @@ h4 {
   padding: 10px 20px;
   text-decoration: none;
 }
+
+/* CSS for donation form */
+.donation form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.donation label,
+.donation input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.donation input {
+    width: 100%;
+    padding: 5px;
+}
+
+.donation button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+/* CSS for top donor list */
+.donation #top-donors {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+    .donation #top-donors h3 {
+        margin-top: 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .donation #top-donors ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .donation #top-donors li {
+        margin-bottom: 5px;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
