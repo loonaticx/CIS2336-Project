@@ -15,29 +15,45 @@ function showSlides() {
 }
 }
 
-/* cart */
-let addButton = document.querySelectorAll('.button');
-let cartList = document.getElementById('cartList');
+/* Merch Scripts */
 
-addButton.forEach(function(button) {
-  button.addEventListener('click', function() {
-    let newItem = document.createElement('li');
-    newItem.textContent = button.parentElement.querySelector('h3').textContent;
-    cartList.appendChild(newItem);
+window.onload = function() {
+
+  let button1 = document.querySelector('#button1');
+  let cartList = document.getElementById("cartList");
+  
+  button1.addEventListener('click', function() {
+    let item = document.querySelector('.prod1').textContent;
+    let price = document.querySelector('.price1').textContent;
+    let listItem = document.createElement('li');
+    let display = item + price
+    listItem.textContent = display;
+    cartList.appendChild(listItem);
   });
-});
-/*
-let addButton = document.getElementsByClassName('button')[0];
-let cartList = document.getElementById('cartList');
-
-addButton.addEventListener('click', function()
-{
-  let newItem = document.createElement('li');
-  newItem.textContent = document.querySelector('#productOne h3').textContent;
-  cartList.appendChild(newItem);
-});
-
-*/
+  
+  let button2 = document.querySelector('#button2');
+  
+  button2.addEventListener('click', function() {
+    let item = document.querySelector('.prod2').textContent;
+    let price = document.querySelector('.price2').textContent;
+    let listItem = document.createElement('li');
+    let display = item + price
+    listItem.textContent = display;
+    cartList.appendChild(listItem);
+  });
+  
+  let button3 = document.querySelector('#button3');
+  
+  button3.addEventListener('click', function() {
+    let item = document.querySelector('.prod3').textContent;
+    let price = document.querySelector('.price3').textContent;
+    let listItem = document.createElement('li');
+    let display = item + price
+    listItem.textContent = display;
+    cartList.appendChild(listItem);
+  });
+  
+  }
 
 /*
 Donate scripts
