@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <title>My Merch Store</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"> </script>
+    <script src="merch.js"> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
@@ -24,25 +24,25 @@
       </nav>
       <main>
         
-    <div class="merchCont">
+        <div class="merchCont">
         <h2>New Arrivals</h2>
-        <div class="product" id="productOne">
+        <div class="product" id="product1">
           <img src="https://www.animalshirts.net/wp-content/uploads/2016/12/10-1150.jpg" alt="Product 1">
-          <h3>Product 1</h3>
-          <p>$19.99</p>
-          <button class="button" id="buttonOne">Click me!</button>
+          <h3 class="prod1"> Tiger Shirt  </h3>
+          <p class="price1"> $19.99</p>
+          <button class="button" id="button1">Click me!</button>
         </div>
-        <div class="product" id="productTwo">
+        <div class="product" id="product2">
           <img src="https://m.media-amazon.com/images/I/513SMf3AZnL._SS400_.jpg" alt="Product 2">
-          <h3>Product 2</h3>
-          <p>$29.99</p>
-          <button class="button">Click me!</button>
+          <h3  class="prod2">Kitten Shirt </h3>
+          <p class="price2">$29.99</p>
+          <button class="button" id="button2">Click me!</button>
         </div>
-        <div class="product" id="productThree">
+        <div class="product" id="product3">
           <img src="https://res.cloudinary.com/teepublic/image/private/s--tu53aVp8--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,h_313/c_crop,g_north_west,h_626,w_470,x_-246,y_-4/g_north_west,u_upload:v1462829017:production:blanks:qe3008lhp5hquxmwp4a0,x_-641,y_-329/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1585820679/production/designs/8819111_0.jpg" alt="Product 3">
-          <h3>Product 3</h3>
-          <p>$24.99</p>
-          <button class="button">Click me!</button>
+          <h3  class="prod3">Fennec Fox Shirt </h3>
+          <p  class="price3">$24.99</p>
+          <button class="button" id="button3">Click me!</button>
         </div>
     </div> 
      
@@ -50,9 +50,7 @@
     <div class="cart">
       <h2> Cart </h2>
       <div class="innerCart">
-        <ul id="cartList">
-        <li><p>1st item </p></li>
-        </ul>
+        <ul id="cartList"></ul>
         <a href="#" class="cartButton"> Check out </a>
       </div>
       </div>
