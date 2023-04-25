@@ -292,18 +292,17 @@ h4 {
 
 /*cart*/
 .cart{
-  height: 400px;
-  width: 300px;
+  height: auto;
+  width: auto;
   padding: 10px;
   padding-bottom: 40px;
-  background-color: #4b2142;
+  background-color: #5F5AA2;
   overflow: hidden;
   text-align: center;
   border-radius: 3px;
-  border: #6A8EAE 10px solid;
+  border: #3F4045 10px solid;
   color: #0f0c11;
   box-shadow: 2px 2px 5px 0px rgba(3, 3, 3, 0.75);
-  
 }
 
 .cartButton {
