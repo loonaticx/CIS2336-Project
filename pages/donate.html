@@ -19,6 +19,13 @@
             <li><a href="/pages/merch.html">Merch</a></li>
         </ul>
     </nav>
+    <div style="text-align: center;">
+        <h2>Donate to Wildheart Animal Rescue Company</h2>
+        <p>Thank you for considering a donation to support our efforts to rescue and care for animals in need. Your contribution will help us provide food, shelter, medical care, and a loving environment for animals in our community.</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="img/DonationPug.webp" alt="Animal Rescue Company" style="display: inline-block;">
+    </div>
     <div class="donation">
         <form id="donation-form">
             <label for="donor-name">Name:</label>
@@ -28,7 +35,7 @@
             <input type="email" id="donor-email" required />
 
             <label for="donor-amount">Donation Amount:</label>
-            <input type="number" id="donor-amount" min="0" required />
+            <input type="number" id="donor-amount" min="1" required />
 
             <label for="card-number">Card Number:</label>
             <input type="text" id="card-number" required />
@@ -57,7 +64,7 @@
             saveDonorInfo();
             document.getElementById('thank-you-message').classList.remove('hidden');
             showTopDonors();
-        });  
+        });
     </script>
     <footer>
         <div class="footContainer">
@@ -85,4 +92,3 @@
     </footer>
 </body>
 </html>
-
