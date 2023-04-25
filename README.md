@@ -19,6 +19,8 @@ https://loonaticx.github.io/CIS2336-Project
   - Project logo
   - Project overseer
 - Dat Nguyen
+  - Donation page
+  - Project proposal
 - Johnny Nguyen
   - Ambassador page
   - Submission form
