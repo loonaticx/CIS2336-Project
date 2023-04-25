@@ -518,6 +518,30 @@ Sponsors
   margin: 0 auto;
 }
 
+/*donation additionals*/
+.donate{
+  height: 550px;
+  font-size: 20px;
+  position: relative;
+  background-color: #525f70;
+  object-fit: contain;
+}
+  .donationbox1{
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  transform: translate(-95%, -50%);
+  height: auto;
+  width: 88%;
+  background-color: #fafafaaf;
+  padding: 10px;
+  border-radius: 3px;
+  border: #4856d4 10px solid;
+  color: #131313;
+  box-shadow: 2px 2px 5px 0px rgba(3, 3, 3, 0.75);
+  font-size: 14px;
+ }
+
 
 /*
 Ambassador
