@@ -13,5 +13,6 @@ https://loonaticx.github.io/CIS2336-Project
   - Initial sponsor page development, project logo, project overseer
 - Dat Nguyen
 - Johnny Nguyen
+  - Project Proposal
 
 
