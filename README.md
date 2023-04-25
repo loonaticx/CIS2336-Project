@@ -1,6 +1,9 @@
-# CIS2336-Project
-https://loonaticx.github.io/CIS2336-Project/#
+# CIS2336 - Internet Application Development | Group Website Project
+Professor: Dr. Jovita Nsoh
 
+Spring 2023, University of Houston
+
+https://loonaticx.github.io/CIS2336-Project
 
 # Group Members
 - Marco Lopez
